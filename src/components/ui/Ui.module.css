@@ -1,0 +1,103 @@
+.success {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+.success div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.success span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 50%;
+    font-size: 12px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.success span:hover {
+    border: 1px solid orangered;
+}
+
+.success p {
+    color: green;
+    position: relative;
+    z-index: 99;
+}
+
+.error {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+.error div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+    opacity: 0.4;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.error p {
+    color: crimson;
+    position: relative;
+    z-index: 99;
+}
+
+.error span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 50%;
+    font-size: 12px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.error span:hover {
+    border: 1px solid orangered;
+}
